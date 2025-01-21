@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body bgcolor="">
+    <h2>
+    <center> 
+    <form action="/stsumbit.html" >
+        <table border="3"cellspacing="3px" cellmargin="5px" style="color: aqua; background-color: rgb(109, 2, 2); height: 400px; width: 500px;" >
+             <h1 style="color: rgb(184, 5, 5);">  <strong>  Student Registration Form</strong></h1>
+
+            <tr>
+                <th><label for="name"> Student Name: </label></th>
+                <td><input type="text" id="name" placeholder="Enter your full name" name="name" required> </td>
+            </tr>
+            <tr>
+                <th> <label for="stemail"> Email: </label></th>
+                <td><input type="email" id="stemail" placeholder="Enter your email"  name ="stemail" required> </td>
+            </tr>
+            <tr>
+                <th><label for="phone"> Phone No.: </label> </th>
+                <td> <input type="text" id="phone" name="phone" placeholder="Enter your phone Number"> </td>
+            </tr>
+            <tr>
+                <th> <label for="stbirth"> D .O .B </label> </th>
+                <td><input type="date" id="stbirth" required> </td>
+            </tr>
+            <tr>
+                <th> <label for="stcity"> City </label> </th>
+                <td> <select name="stcity" name="stcity" id="stcity"> 
+                    <option name="stcity"> Select city -- </option>
+                    <option name="stcity"> Patna </option>
+                    <option name="stcity"> Nalanda </option>
+                    <option name="stcity"> Gaya</option>
+
+                </select> </td>
+            </tr>
+            <tr>
+
+
+                <th> <label for="stgender">Gender</label> </th>
+                <td>
+                    <input type="radio" name="stgender" value="male" > Male
+                <input type="radio" name="stgender"  value="Female"> Female
+                
+                 <input type="radio" name="stgender" value="other" > other
+                </td>
+            </tr>
+
+            <tr>
+                <th><label for="stadd"> Address </label> </th>
+                <td> <textarea name="stadd" name="stadd" cols="30" rows="3"> </textarea> </td>
+            </tr>
+            
+        </table>
+   
+  
+    <tr>
+       <th>  
+        <h1 >  <input type="submit" name="submit" style="font-size: 40px; color: blue;"  required " title="click and submit your data"></a>
+      
+        </h1> </th>
+    </tr>
+</form>
+</center>
+</h2>
+</body>
+</html>
